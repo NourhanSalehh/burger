@@ -1,0 +1,51 @@
+.contact {
+  padding: 60px 0;
+  background-color: #0a1128;
+}
+
+.contact-content {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-text h2 {
+  font-size: 2rem;
+  color: var(--yellow);
+  margin-bottom: 20px;
+}
+
+.contact-text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.contact-info {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.info-box {
+  background-color: var(--black);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+}
+
+.info-box h3 {
+  color: var(--red);
+  margin-bottom: 15px;
+}
+
+.info-box p {
+  margin-bottom: 10px;
+}

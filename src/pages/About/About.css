@@ -1,0 +1,82 @@
+.about-hero {
+  padding: 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: var(--white);
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: var(--yellow);
+}
+
+.our-story {
+  padding: 80px 0;
+  background-color: var(--black);
+}
+
+.story-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.story-text {
+  flex: 1;
+}
+
+.story-text h2 {
+  font-size: 2rem;
+  color: var(--yellow);
+  margin-bottom: 20px;
+}
+
+.story-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.story-image {
+  flex: 1;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.our-mission {
+  padding: 80px 0;
+  background-color: #0a1128;
+  text-align: center;
+}
+
+.our-mission h2 {
+  font-size: 2.5rem;
+  color: var(--yellow);
+  margin-bottom: 50px;
+}
+
+.mission-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.mission-card {
+  background-color: var(--black);
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.mission-card:hover {
+  transform: translateY(-10px);
+}
+
+.mission-card h3 {
+  color: var(--red);
+  margin-bottom: 15px;
+}
